@@ -160,7 +160,7 @@ def DO():
         imgCanny = cv2.Canny(imgBlur, 100, 200)
 
         getContours(imgCanny)
-        cv2.imshow("Yellow coloured objects", imgContour)
+        cv2.imshow("Orange coloured objects", imgContour)
         cv2.waitKey(0)
         cv2.destroyAllWindows()
 
