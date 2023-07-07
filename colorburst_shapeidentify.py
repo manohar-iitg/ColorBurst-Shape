@@ -58,7 +58,7 @@ def DO():
             elif len(approx)==5:
                 cv2.putText(imgContour,'Pentagon', (x2-50,y2), cv2.FONT_HERSHEY_TRIPLEX, 0.65, (255,255,255), 2)
             
-            elif len(approx)==5:
+            elif len(approx)==6:
                 cv2.putText(imgContour,'Hexagon', (x2-50,y2), cv2.FONT_HERSHEY_TRIPLEX, 0.65, (255,255,255), 2)
             
             else:
